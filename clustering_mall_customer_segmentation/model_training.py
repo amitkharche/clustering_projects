@@ -19,7 +19,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-DATA_PATH = "data/mall_customers.csv"
+DATA_PATH = "mall_customers.csv"
 MODEL_DIR = "model"
 MODEL_PATH = os.path.join(MODEL_DIR, "kmeans_model.pkl")
 SCALER_PATH = os.path.join(MODEL_DIR, "scaler.pkl")
